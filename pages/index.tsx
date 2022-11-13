@@ -13,8 +13,11 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to Yöga!
         </h1>
+        <h2>
+          mit Jörn Roes &amp; Freund*innen 
+        </h2>
 
         <p className={styles.description}>
           Get started by editing{' '}
@@ -55,6 +58,13 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+        <h5>
+          Designed and Coded with love in Hamburg by <a href="https://sury.cc/" target="_blank">sury.cc</a>
+        </h5>
+        <h5>Impressum</h5>
+        <h5>Datenschutz</h5>
+
+{/*         
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -64,7 +74,7 @@ export default function Home() {
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </a>
+        </a> */}
       </footer>
     </div>
   )
